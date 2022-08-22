@@ -85,7 +85,7 @@ resource "aws_ecs_task_definition" "demo-ecs-task-definition" {
   [ 
     { 
       "name": "demo-container", 
-      "image": "335856564507.dkr.ecr.us-east-1.amazonaws.com/demo-repo:2c98598b415dad53ba5636a1679823e1623e9aa8", 
+      "image": "335856564507.dkr.ecr.us-east-1.amazonaws.com/demo-repo:59411c96ea63fa3f80f41fb233a4f8b324377f22", 
       "essential": true, 
       "logConfiguration": {  
 
